@@ -1,5 +1,5 @@
 function copytext(el) {
-    var $tmp = $("<textarea>");
+    var $tmp = $("<input>");
     $("body").append($tmp);
     $tmp.val($(el).text()).select();
     document.execCommand("copy");
