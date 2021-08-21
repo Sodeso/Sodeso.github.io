@@ -17,7 +17,19 @@ body {
 
 .header {
     min-height: 90px;
-    margin-bottom: 130px;
+    margin-bottom: 10px;
+}
+
+.number {
+    padding: 20px;
+}
+
+.phone {
+    font-size: 35px;
+}
+
+.copy {
+    padding: 6px;
 }
 
 @import "breakpoints";
