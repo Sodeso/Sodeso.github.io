@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1, h2, h3{
+  margin: 0;
+}
+body{
+  background-color: #f4f4f4;
+  background-image: url('Background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  font-size: 24px;
+}
+h1.shapka{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 72px;
+  cursor: default;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 855px;
+}
+#phone{
+  position: absolute;
+  color: #f4f4f4;
+  top: 1.5%;
+  left: 2%;
+  font-size: 64px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.phone_background{
+  width: auto;
+  padding-right: 13px;
+  cursor: default;
+}
+.abzac{
+  color: #c59f6b;
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: 300;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.container{
+  width: 100%;
+  max-width: 1700px;
+  margin: 80px auto;
+}
+.logo{
+  margin: -100px 890px;
+}
+.info{
+  position: absolute;
+  margin: 90px auto;
+  max-width: 1700px;
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+}
+.phone_position{
+  padding-bottom: 25px;
+}
+.price{
+  font-size:  22px;
+  margin-top: 35px;
+  margin-left: -60px;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 300;
+  cursor: pointer;
+}
+.price_element{
+  width: 18%;
+  cursor: pointer;
+  margin-right: 52px;
+}
+.price_text{
+  position: absolute;
+  left: 2.40%;
+  top: 74%;
+  color: #f4f4f4;
+}
+.price_text1{
+  position: absolute;
+  left: 26.5%;
+  top: 74%;
+  color: #f4f4f4;
+}
+.price_text2{
+  position: absolute;
+  left: 50.2%;
+  top: 74%;
+  color: #f4f4f4;
+}
+.price_text3{
+  position: absolute;
+  left: 72.60%;
+  top: 74%;
+  color: #f4f4f4;
+  box-sizing: border-box;
+}
+p{
+  font-family: 'Roboto';
+  font-weight: 300;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.scritno{
+  visibility: visible;
+}
+.ne_scritno{
+  visibility: hidden;
+}
+@media screen and (max-width: 1680px) {
+  body{
+    transform: scale(90%);
+  }
+}
+@media screen and (max-width: 1536px) {
+  body{
+    transform: scale(90%);
+  }
+  p{
+    width: 1090px;
+    /* border: solid 1px greenyellow; */
+    font-size: 90%;
+  }
+  .scritno{
+    display: none;
+  }
+  .ne_scritno{
+    visibility: visible;
+  }
+  .abzac{
+    font-size: 170%;
+  }
+  .price_text{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("block.png");
+    padding: 30px;
+    background-position: center top;
+    font-size: 80%;
+    left: -0.4%;
+    top: 99%;
+    background-repeat: no-repeat;
+    text-align: bottom center;
+    min-height: 200px;
+    min-width: 200px;
+    color: #f4f4f4;
+    
+  }
+  .price_text1{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("block.png");
+    padding: 30px;
+    background-position: center top;
+    font-size: 80%;
+    left: 23%;
+    top: 99%;
+    background-repeat: no-repeat;
+    text-align: bottom center;
+    min-height: 200px;
+    min-width: 200px;
+    color: #f4f4f4;
+  }
+  .price_text2{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("block.png");
+    padding: 30px;
+    background-position: center top;
+    font-size: 80%;
+    left: 46.6%;
+    top: 99%;
+    background-repeat: no-repeat;
+    text-align: bottom center;
+    min-height: 200px;
+    min-width: 200px;
+    color: #f4f4f4;
+  }
+  .price_text3{
+    position: absolute;
+    background-size: 100%;
+    background-image: url("block.png");
+    padding: 25px;
+    background-position: center top;
+    font-size: 80%;
+    left: 70.2%;
+    top: 99%;
+    background-repeat: no-repeat;
+    text-align: center;
+    min-height: 200px;
+    min-width: 200px;
+    color: #f4f4f4;
+  }
+}
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1366px) {
+
+}
+@media screen and (max-width: 1280px) {
+  p{
+    width: 1030px;
+    /* border: solid 1px greenyellow; */
+    font-size: 90%;
+  }
+}
+@media screen and (max-width: 1080px) {
+  body{
+    background-color: #f4f4f4;
+    background-image: none;
+    background-position: top center;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+
+
+  h1.shapka{
+    width: 900px;
+  }
+  /*
+  .logo{
+    
+    margin: -90px 480px ;
+    transform: scale(150%);
+    
+  }
+  */
+}
+
+@media screen and (max-width: 720px) {
+
+}
+.font_size{
+    font-size: 30px;
+    text-align: bottom center;
+}
