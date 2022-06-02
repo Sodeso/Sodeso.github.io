@@ -303,7 +303,7 @@
 													<p class="card-category">Заказы</p>
 													<h4 class="card-title">
 													<?php
-														$conn = new mysqli("localhost", "srv177397_dezo", "230819", "srv177397_projectvpte");
+														$conn = new mysqli("mysql-177397.srv.hoster.ru", "srv177397_dezo", "230819", "srv177397_projectvpte");
 														if($conn->connect_error){
 														    die("Ошибка: " . $conn->connect_error);
 														}
