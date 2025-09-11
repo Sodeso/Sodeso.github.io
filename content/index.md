@@ -1,5 +1,12 @@
 ---
-title: "Главная страница"
+title: Главная страница
+TQ_show_created_date: false
+TQ_show_tags: false
+tags:
+  - главное
+  - начало
+  - основа
+  - старт
 ---
 
 #### Основное
